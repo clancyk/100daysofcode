@@ -1,4 +1,4 @@
 # 100daysofcode
 My #100daysofcode challenge
 
-- log 
+- [log] (100daysofcode/Daily Log.md) 
