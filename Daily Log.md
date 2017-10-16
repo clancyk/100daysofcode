@@ -21,3 +21,9 @@ So last evening as I went to bed I realized I forgot to do any coding. Not in th
 Better progress was with tic tac toe. Realized my problem with code before was using a non-global variable. I was changing the input in one function but because I didn't state I was using the global variable within the function it wasn't changing the downstream code. I fixed this and therefore have proper user input that is assigned. I started to work on assessing if someone has won the game - Was asked to leave my work area at this time so will need to be for tomorrow.
 
 **Thoughts/To Dos**: Codecademy is a good starter (low bar to pat on the shoulder) but it also has longer ways of doing some things. I need to see if there is a simpler way to compare multiple scenarios at one time or if need to make 'if' statement for each of the possible ways to win tic tac toe (there are 8 ways). Then will need to figure out best place in code to put the check - right after assigning variable seems best time.
+
+Day 2 - Oct 14, 2017
+
+**Today's Progress**: Completed the Tic Tac Toe game. Got some practice on setting up the while loop and nested if statements so it would keep going but not if one of the players won (before was still partly executing if one had already won).
+
+**Thoughts/To Dos**: Tomorrow may do some Codecademy stuff then will get back to the Python bootcamp course and next project. I like having a project to work on as well as reminding myself the easier stuff.
