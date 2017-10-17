@@ -27,3 +27,9 @@ Day 2 - Oct 14, 2017
 **Today's Progress**: Completed the Tic Tac Toe game. Got some practice on setting up the while loop and nested if statements so it would keep going but not if one of the players won (before was still partly executing if one had already won).
 
 **Thoughts/To Dos**: Tomorrow may do some Codecademy stuff then will get back to the Python bootcamp course and next project. I like having a project to work on as well as reminding myself the easier stuff.
+
+Day 3 - Oct 15, 2017
+
+**Today's Progress**: Went over the Udemy solution for Tic Tac Toe. Doing so I realized that I didn't check if the board was full (i.e. there was a tie game). Also realized could have used Bolean logic to create my 'While' loops instead of creating a random variable and having it set to zero and it ran while the variable was still zero. Also learned about the clear_output() function so that could run the program again and not have to refresh the Jupyter notebook.
+
+**Thoughts/To Dos**: haha actual coding tomorrow, today was kind of a cheat day(?) of learning by watching.
