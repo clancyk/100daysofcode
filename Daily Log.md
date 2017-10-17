@@ -13,6 +13,8 @@ Day 2: Oct 12, 2017
 
 **Thoughts**: Codecademy is a lazy way to keep reminding me of Python syntax 
 
+-------------------------------------
+
 Day 1: Oct 14, 2017
 
 So last evening as I went to bed I realized I forgot to do any coding. Not in the mood to wake completely up for it (just had done yoga and quiet reading so in a very relaxed state away from screens) I decided that my 'punishment' would be that I have to start at Day 1 again.
