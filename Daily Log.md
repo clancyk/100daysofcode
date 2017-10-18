@@ -35,3 +35,8 @@ Day 3 - Oct 15, 2017
 **Today's Progress**: Went over the Udemy solution for Tic Tac Toe. Doing so I realized that I didn't check if the board was full (i.e. there was a tie game). Also realized could have used Bolean logic to create my 'While' loops instead of creating a random variable and having it set to zero and it ran while the variable was still zero. Also learned about the clear_output() function so that could run the program again and not have to refresh the Jupyter notebook.
 
 **Thoughts/To Dos**: haha actual coding tomorrow, today was kind of a cheat day(?) of learning by watching.
+
+Day 4 - Oct 16, 2017
+
+**Today's Progress**: Did a little bit of Codecademy today on Boolean operators. Lack of sleep is making me unproductive though but tomorrow is coding dinner night so will make up for it then! ;) 
+
