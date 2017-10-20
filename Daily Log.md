@@ -24,19 +24,30 @@ Better progress was with tic tac toe. Realized my problem with code before was u
 
 **Thoughts/To Dos**: Codecademy is a good starter (low bar to pat on the shoulder) but it also has longer ways of doing some things. I need to see if there is a simpler way to compare multiple scenarios at one time or if need to make 'if' statement for each of the possible ways to win tic tac toe (there are 8 ways). Then will need to figure out best place in code to put the check - right after assigning variable seems best time.
 
-Day 2 - Oct 14, 2017
+Day 2 - Oct 15, 2017
 
 **Today's Progress**: Completed the Tic Tac Toe game. Got some practice on setting up the while loop and nested if statements so it would keep going but not if one of the players won (before was still partly executing if one had already won).
 
 **Thoughts/To Dos**: Tomorrow may do some Codecademy stuff then will get back to the Python bootcamp course and next project. I like having a project to work on as well as reminding myself the easier stuff.
 
-Day 3 - Oct 15, 2017
+Day 3 - Oct 16, 2017
 
 **Today's Progress**: Went over the Udemy solution for Tic Tac Toe. Doing so I realized that I didn't check if the board was full (i.e. there was a tie game). Also realized could have used Bolean logic to create my 'While' loops instead of creating a random variable and having it set to zero and it ran while the variable was still zero. Also learned about the clear_output() function so that could run the program again and not have to refresh the Jupyter notebook.
 
 **Thoughts/To Dos**: haha actual coding tomorrow, today was kind of a cheat day(?) of learning by watching.
 
-Day 4 - Oct 16, 2017
+Day 4 - Oct 17, 2017
 
 **Today's Progress**: Did a little bit of Codecademy today on Boolean operators. Lack of sleep is making me unproductive though but tomorrow is coding dinner night so will make up for it then! ;) 
 
+Day 5 - Oct 18, 2017
+
+**Today's Progress**: Codecademy day, finished Boolean part and started on functions reminder.
+
+**Thoughts/To Dos**: Codecademy is annoying since it my code/spacing was the same as what it had. Going back to Udemy course.
+
+Day 6 - Oct 19, 2017
+
+**Today's Progress**: Started with the OOP lecture. It is interesting to learn about creatign classes that you add attributes to. Hit a snag with a return variable for the one function and therefore needed to learn more about "None" return. I still am not sure why my code gave it but asked on Udemy lecture so will see if get answer.
+
+**Thoughts/To Dos**: Finish OOP lecture and find out about returning of empty variable some more.
