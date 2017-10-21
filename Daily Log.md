@@ -51,3 +51,9 @@ Day 6 - Oct 19, 2017
 **Today's Progress**: Started with the OOP lecture. It is interesting to learn about creatign classes that you add attributes to. Hit a snag with a return variable for the one function and therefore needed to learn more about "None" return. I still am not sure why my code gave it but asked on Udemy lecture so will see if get answer.
 
 **Thoughts/To Dos**: Finish OOP lecture and find out about returning of empty variable some more.
+
+Day 7and8 - Oct 20/21, 2017
+
+**Today's Progress**: Finished OOP lecture and read another article on the subject. Nice to understand, need to implement it more so I do less repitition in coding.
+
+**Thoughts/To Dos**:
