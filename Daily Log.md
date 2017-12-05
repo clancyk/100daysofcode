@@ -56,4 +56,9 @@ Day 7and8 - Oct 20/21, 2017
 
 **Today's Progress**: Finished OOP lecture and read another article on the subject. Nice to understand, need to implement it more so I do less repitition in coding.
 
-**Thoughts/To Dos**:
+------------------
+Day 1 - Dec 5, 2017
+
+So I fell off the wagon! To be fair, I did do some python but didn't actually log it. I also did a trip to SF for an interview and watched people coding on the Caltrain so by osmosis I kind of worked ;) Anyways, back to work! I am going to finish the Python bootcamp course so I can start the data visualization one. My goal is to complete the analysis of mechanical properties of materials for 3D printing by the end of 2017. I am sure I could jump right into this but I am not sure if should just load in a table into Python of the values and work off of that or I should create objects (or dictionary) for each material. Therefore I am going to learn about how to do both ways in general and then decide which is better for my analysis.
+
+
