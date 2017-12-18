@@ -65,7 +65,7 @@ So I fell off the wagon! To be fair, I did do some python but didn't actually lo
 
 **Thoughts/To Dos**: Milestone project #2! Making a blackjack game. I have already sketched the project out, just need to figure out best way to make object for the deck and then start.
 
-Dec 17, 2017
+Dec 17, 2017 (and whenever, going to base this more on subject than day)
 
 So I started working on that Milestone project then decided I would rather learn data visualization and finish my 3D printing materials project ;). I have been thinking about/doing Python each day but not updating here. Think is a good use of my time  to summarize what learned each day here to remember it. Plus, I'm not sure who will actually read this.
 
@@ -76,6 +76,23 @@ NumPy:
 - can do some built in math functions on the numbers in whole array/matrix or in certain column/row (need to specify the axis to do a certain row) or between two different array/matrix (i.e. array * array)
 
 Pandas: = Excel, but more freedom/whatever
-- Series = NumPy array but it can be indexed with labels (i.e. you can name the rows/columns). In other words, what arrays are to lists, series are to dictionaries.
+- Series = NumPy array but it can be indexed with labels (i.e. you can name/label the rows). In other words, what arrays are to lists, series are to dictionaries. The data can be numbers or strings, or even functions (less likely to use). 
+  - to create; pd.Series(data,labels) or can use dictionary directly: pd.Series(dictionary)
+  - indexing is SeriesName[label], label could be interger or string 
+  - notes: if adding to series that don't have exact same labels, then will get NaN for those without a match (instead of original value)
+- Dataframe = NumPy matrix but again can label the rows and columns. Note, for example, DataframeName = df
+  - each column is a pandas series, each row is also a series
+  - indexing columns is DataframeName[ColumnLabel](single column), DataframeName[[list of ColumnLabels]] (many columns)
+  - indexing rows is DataframeName.loc[RowLabel] (or also can do based on index location: DataframeName.iloc[RowIndex])
+  - indexing row & column is DataframeName.loc[RowLabel,ColumnLabel]
+  - indexing many rows & columns is DataframeName.loc[[RowLabelList],[ColumnLabelList]]
+  - add column: just assume like it already exists and assign it
+  - remove row/column: DataframeName.drop(row or column name), if dropping column need to assign axis = 1, if want to afffect original dataframe, need to set inplace = True
+  - Conditional Selection: 
+    - df[Column/RowLabel]>0 = the conditional statement (would give back Boolean info)
+    - df[df[Column/RowLabel]>0] = creating a new dataframe with the values that meet the conditional statement
+    - df[df[Column/RowLabel]>0][single or multiple columns/rows] = taking from new dataframe the subset of rows/columns that meet the condition
+    - For example: df[df['W']>0]['Y','X'] VERSUS boolser = df['W']>0 then, result = df[boolser], then mycols = ['Y','X'], then result [mycols]
+
 
 
