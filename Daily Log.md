@@ -64,3 +64,18 @@ So I fell off the wagon! To be fair, I did do some python but didn't actually lo
 **Today's Progress**: Finishe OOP lecture/homework and error handling lecture and homework.
 
 **Thoughts/To Dos**: Milestone project #2! Making a blackjack game. I have already sketched the project out, just need to figure out best way to make object for the deck and then start.
+
+Dec 17, 2017
+
+So I started working on that Milestone project then decided I would rather learn data visualization and finish my 3D printing materials project ;). I have been thinking about/doing Python each day but not updating here. Think is a good use of my time  to summarize what learned each day here to remember it. Plus, I'm not sure who will actually read this.
+
+NumPy:
+- make array and matrices from lists (can generate using arange, linespace, random functions etc. then reshaping to desired matrix dimensions)
+- different from lists because of broadcasting and if create something from array it makes copy (doesn't affect original)
+- indexing is [row,column] like most others, can do [[row,row]] to get all the column info for specific rows (and vice versa)
+- can do some built in math functions on the numbers in whole array/matrix or in certain column/row (need to specify the axis to do a certain row) or between two different array/matrix (i.e. array * array)
+
+Pandas: = Excel, but more freedom/whatever
+- Series = NumPy array but it can be indexed with labels (i.e. you can name the rows/columns). In other words, what arrays are to lists, series are to dictionaries.
+
+
