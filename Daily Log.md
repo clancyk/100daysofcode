@@ -93,6 +93,7 @@ Pandas: = Excel, but more freedom/whatever
     - df[df[Column/RowLabel]>0] = creating a new dataframe with the values that meet the conditional statement
     - df[df[Column/RowLabel]>0][single or multiple columns/rows] = taking from new dataframe the subset of rows/columns that meet the condition
     - For example: df[df['W']>0]['Y','X'] VERSUS boolser = df['W']>0 then, result = df[boolser], then mycols = ['Y','X'], then result [mycols]
+    - ***How do you also call rows and not just columns??***
 
 
 
