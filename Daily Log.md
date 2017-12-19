@@ -87,13 +87,17 @@ Pandas: = Excel, but more freedom/whatever
   - indexing row & column is DataframeName.loc[RowLabel,ColumnLabel]
   - indexing many rows & columns is DataframeName.loc[[RowLabelList],[ColumnLabelList]]
   - add column: just assume like it already exists and assign it
+  - Reset the index using df.reset_index(), then old index becomes a column for the dataframe. If want to change original df, need to do inplace = True
+  - Make a column the index using df.set_index(ColumnLabel). This will replace the index and that old index is lost (if do inplace = true)
   - remove row/column: DataframeName.drop(row or column name), if dropping column need to assign axis = 1, if want to afffect original dataframe, need to set inplace = True
   - Conditional Selection: 
     - df[Column/RowLabel]>0 = the conditional statement (would give back Boolean info)
     - df[df[Column/RowLabel]>0] = creating a new dataframe with the values that meet the conditional statement
     - df[df[Column/RowLabel]>0][single or multiple columns/rows] = taking from new dataframe the subset of rows/columns that meet the condition
-    - For example: df[df['W']>0]['Y','X'] VERSUS boolser = df['W']>0 then, result = df[boolser], then mycols = ['Y','X'], then result [mycols]
-    - ***How do you also call rows and not just columns??***
+    - One line example: df[df['W']>0]['Y','X'] VERSUS all these lines: boolser = df['W']>0 then, result = df[boolser], then mycols = ['Y','X'], then result [mycols]
+    - Doing multiple conditional selections means using & and | (for AND and OR), For example df[(cond#1) & (cond#2)], example cond=df['W']>0
+    - To select rows and columns from conditional dataframe, need to do like this: df[df['W']>0].loc['A','X']
+    
 
 
 
