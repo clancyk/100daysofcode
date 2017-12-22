@@ -97,6 +97,20 @@ Pandas: = Excel, but more freedom/whatever
     - One line example: df[df['W']>0]['Y','X'] VERSUS all these lines: boolser = df['W']>0 then, result = df[boolser], then mycols = ['Y','X'], then result [mycols]
     - Doing multiple conditional selections means using & and | (for AND and OR), For example df[(cond#1) & (cond#2)], example cond=df['W']>0
     - To select rows and columns from conditional dataframe, need to do like this: df[df['W']>0].loc['A','X']
+  - When have missing data in a row/column
+    - use the function df.dropna(Column/RowCondition) to get rid of any rows/columns you don't want. Can create a threshold for how many missing data spots are accepted. 
+    - use df.fillna() to add something else into the spot of missing data
+  - Can group rows/columns together in dataframe to perform action on them using df.groupby(Column/RowLabel)
+  - Combining dataframes:
+    - pd.concat(List of DataFrames) - glues the dataframes together, default is joining rows. If the dimensions of dataframes don't match, the empty spots will be filled with NaN. There is more info on doing 'inner' vs 'outer' etc. here: https://pandas.pydata.org/pandas-docs/stable/merging.html
+    - pd.merge(DataFrameNames) - this seems to merge them based on column. Has more to do with merging with many different columns based on a key that is a column.
+    - pd.join(DataFrameNames) - this is for joining based on indices
+   - Other functions/commands:
+    - df.apply(SomeFunction) - can apply a unique or any function to the whole dataframe or subset
+    - df.columns - gives the list of column names
+    - df.index - start, stop and spacing of index given OR list of row names (if index is strings)
+    - df.sort_values - can sort by columns or row/index
+    - df.pivot_tables - reorganizing info into multi-level indexing etc. 
     
 
 
