@@ -113,5 +113,8 @@ Pandas: = Excel, but more freedom/whatever
     - df.pivot_tables - reorganizing info into multi-level indexing etc. 
     
 
-
+Data structures
+- Lists; use  []
+- Dictionaries; use {}
+- Tuple; use nada!
 
