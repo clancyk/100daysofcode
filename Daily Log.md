@@ -115,6 +115,7 @@ Pandas: = Excel, but more freedom/whatever
 
 Data structures
 - Lists; use  [], so can make a list by inputing values into [] (ex, [1,2]) or even list(something)
+**Actually need to check this. I just tried to use [] instead of list() and using type() it should me [range()] so not sure if the variable was a list or not**
 - Dictionaries; use {}
 See the difference/understand processing speeds better with this discussion: https://stackoverflow.com/questions/30216000/why-is-faster-than-list?rq=1
 - Tuple; use nada!
